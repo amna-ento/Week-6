@@ -1,0 +1,27 @@
+.env
+.env.*
+!.env.example
+
+.venv/
+venv/
+
+__pycache__/
+*.pyc
+
+.DS_Store
+
+*.db
+*.sqlite
+*.sqlite3
+
+*.log
+
+# Large / duplicate RAG projects
+rag /
+rag project/
+rag-company-kb/
+rag-project/
+
+# Generated vector database files
+**/data/vector_db/
+**/data/chroma_db/
